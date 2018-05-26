@@ -9,3 +9,14 @@ C:\Users\anton\Desktop\asp-mvc-application_core_6\Shared\obj\Debug\net461\Shared
 C:\Users\anton\Desktop\asp-mvc-application_core_6\Shared\obj\Debug\net461\Shared.csproj.CopyComplete
 C:\Users\anton\Desktop\asp-mvc-application_core_6\Shared\obj\Debug\net461\Shared.dll
 C:\Users\anton\Desktop\asp-mvc-application_core_6\Shared\obj\Debug\net461\Shared.pdb
+C:\Users\anton\Desktop\RelationalPart\Shared\bin\Debug\net461\Shared.dll
+C:\Users\anton\Desktop\RelationalPart\Shared\bin\Debug\net461\Shared.pdb
+C:\Users\anton\Desktop\RelationalPart\Shared\bin\Debug\net461\NServiceBus.Core.dll
+C:\Users\anton\Desktop\RelationalPart\Shared\bin\Debug\net461\NServiceBus.Callbacks.dll
+C:\Users\anton\Desktop\RelationalPart\Shared\obj\Debug\net461\Shared.csprojResolveAssemblyReference.cache
+C:\Users\anton\Desktop\RelationalPart\Shared\obj\Debug\net461\Shared.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\RelationalPart\Shared\obj\Debug\net461\Shared.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\RelationalPart\Shared\obj\Debug\net461\Shared.AssemblyInfo.cs
+C:\Users\anton\Desktop\RelationalPart\Shared\obj\Debug\net461\Shared.csproj.CopyComplete
+C:\Users\anton\Desktop\RelationalPart\Shared\obj\Debug\net461\Shared.dll
+C:\Users\anton\Desktop\RelationalPart\Shared\obj\Debug\net461\Shared.pdb

@@ -678,18 +678,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\AsyncPagesMVC\\AsyncPagesMVC.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\Desktop\\RelationalPart\\AsyncPagesMVC\\AsyncPagesMVC.csproj",
       "projectName": "AsyncPagesMVC",
-      "projectPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\AsyncPagesMVC\\AsyncPagesMVC.csproj",
+      "projectPath": "C:\\Users\\anton\\Desktop\\RelationalPart\\AsyncPagesMVC\\AsyncPagesMVC.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\AsyncPagesMVC\\obj\\",
+      "outputPath": "C:\\Users\\anton\\Desktop\\RelationalPart\\AsyncPagesMVC\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\NuGet.Config",
+        "C:\\Users\\anton\\Desktop\\RelationalPart\\NuGet.Config",
         "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
@@ -705,8 +705,8 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Shared\\Shared.csproj"
+            "C:\\Users\\anton\\Desktop\\RelationalPart\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\anton\\Desktop\\RelationalPart\\Shared\\Shared.csproj"
             }
           }
         }

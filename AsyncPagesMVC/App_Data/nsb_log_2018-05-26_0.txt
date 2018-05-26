@@ -95,3 +95,39 @@ System.IO.IOException: The process cannot access the file 'C:\Users\anton\Deskto
 2018-05-26 18:55:06.618 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
 2018-05-26 18:55:06.676 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
 2018-05-26 18:55:06.719 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:04:56.213 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\App_Data\' with level Info
+2018-05-26 20:04:57.539 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:04:58.043 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "DESKTOP-78RVP3N\anton" /add
+2018-05-26 20:04:58.829 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:04:58.908 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:04:58.956 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:10:35.248 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\App_Data\' with level Info
+2018-05-26 20:10:36.239 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:10:37.111 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:10:37.430 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:10:37.462 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:10:37.528 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:31:44.588 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\App_Data\' with level Info
+2018-05-26 20:31:45.807 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:31:46.808 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:31:47.395 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:31:47.419 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:31:47.443 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:45:16.251 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\App_Data\' with level Info
+2018-05-26 20:45:17.607 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:45:18.599 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:45:19.424 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:45:19.448 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:45:19.472 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:49:34.615 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\App_Data\' with level Info
+2018-05-26 20:49:35.196 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:49:35.778 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:49:35.940 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:49:35.991 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:49:36.024 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.

@@ -1,0 +1,9 @@
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\bin\Debug\ClientRestSharp.exe.config
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\bin\Debug\ClientRestSharp.exe
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\bin\Debug\ClientRestSharp.pdb
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\bin\Debug\RestSharp.dll
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\obj\Debug\ClientRestSharp.csprojResolveAssemblyReference.cache
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\obj\Debug\ClientRestSharp.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\obj\Debug\ClientRestSharp.csproj.CopyComplete
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\obj\Debug\ClientRestSharp.exe
+C:\Users\anton\Desktop\RelationalPart\ClientRestSharp\obj\Debug\ClientRestSharp.pdb

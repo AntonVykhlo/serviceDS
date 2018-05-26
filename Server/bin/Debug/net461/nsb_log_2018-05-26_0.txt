@@ -198,3 +198,71 @@ System.IO.IOException: Access to the path 'C:\Users\anton\Desktop\asp-mvc-applic
 2018-05-26 18:55:36.178 INFO  CommandMessageHandler Returning Fail
 2018-05-26 18:55:36.656 INFO  CommandMessageHandler Hello from CommandMessageHandler
 2018-05-26 18:55:46.699 INFO  CommandMessageHandler Returning None
+2018-05-26 20:04:32.542 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-26 20:04:39.403 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:04:39.980 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "DESKTOP-78RVP3N\anton" /add
+2018-05-26 20:04:41.810 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:04:41.873 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:04:41.913 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:19:47.115 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-26 20:19:51.162 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:19:52.145 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:19:52.865 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:19:52.909 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:19:52.970 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:20:59.120 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:21:09.209 INFO  CommandMessageHandler Returning None
+2018-05-26 20:21:10.145 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:21:20.192 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:22:51.283 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:23:01.343 INFO  CommandMessageHandler Returning None
+2018-05-26 20:23:01.568 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:23:11.630 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:31:44.484 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-26 20:31:48.081 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:31:49.177 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:31:49.964 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:31:49.991 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:31:50.044 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:32:42.650 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:32:52.694 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:32:53.543 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:33:03.571 INFO  CommandMessageHandler Returning None
+2018-05-26 20:35:49.389 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:35:59.754 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:36:00.379 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:36:10.407 INFO  CommandMessageHandler Returning None
+2018-05-26 20:45:13.164 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-26 20:45:17.402 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:45:18.531 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:45:19.884 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:45:19.978 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:45:20.028 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:45:39.294 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:45:49.346 INFO  CommandMessageHandler Returning None
+2018-05-26 20:45:50.361 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:46:00.481 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:49:27.826 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-26 20:49:28.947 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-26 20:49:29.532 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-26 20:49:29.821 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:49:29.863 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:49:29.931 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-26 20:50:17.483 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:50:27.517 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:50:27.981 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:50:38.012 INFO  CommandMessageHandler Returning None
+2018-05-26 20:50:45.181 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:50:55.199 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:50:55.348 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:51:05.388 INFO  CommandMessageHandler Returning None
+2018-05-26 20:52:48.837 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:52:58.868 INFO  CommandMessageHandler Returning Fail
+2018-05-26 20:52:58.981 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-26 20:53:09.019 INFO  CommandMessageHandler Returning None
