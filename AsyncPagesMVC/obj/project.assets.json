@@ -1,0 +1,752 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Autofac/4.8.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mvc5/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.1, 5.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.6, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "NServiceBus/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Autofac/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.0, 5.0.0)",
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        }
+      },
+      "NServiceBus.Callbacks/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "6.0.0",
+          "NServiceBus.Callbacks": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Autofac/4.8.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mvc5/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.1, 5.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.6, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "NServiceBus/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Autofac/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.0, 5.0.0)",
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        }
+      },
+      "NServiceBus.Callbacks/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "6.0.0",
+          "NServiceBus.Callbacks": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Autofac/4.8.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mvc5/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.1, 5.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.6, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "NServiceBus/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Autofac/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.0, 5.0.0)",
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        }
+      },
+      "NServiceBus.Callbacks/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "6.0.0",
+          "NServiceBus.Callbacks": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Autofac/4.8.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mvc5/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.1, 5.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.6, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.6": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.6, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "NServiceBus/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Autofac/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.0.0, 5.0.0)",
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll": {}
+        }
+      },
+      "NServiceBus.Callbacks/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "6.0.0",
+          "NServiceBus.Callbacks": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/4.8.1": {
+      "sha512": "aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
+      "type": "package",
+      "path": "autofac/4.8.1",
+      "files": [
+        "autofac.4.8.1.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Mvc5/4.0.2": {
+      "sha512": "gok9ZMn7ZiZTOtJ7R67mFbS0deDyU5c45CFILIG3bxA3KlKC0jb7E2c0KvYMDS6H1XW2yvUj1XE1z1v8E8v8ww==",
+      "type": "package",
+      "path": "autofac.mvc5/4.0.2",
+      "files": [
+        "autofac.mvc5.4.0.2.nupkg.sha512",
+        "autofac.mvc5.nuspec",
+        "lib/net45/Autofac.Integration.Mvc.dll",
+        "lib/net45/Autofac.Integration.Mvc.xml"
+      ]
+    },
+    "Microsoft.AspNet.Mvc/5.2.6": {
+      "sha512": "kBiyGUUBLE8JyQDTdmsBW0MyKg3VbB6FCrhu2pZiT9uOdS7uqADryIApWnUWmzDj4+4Q3/c/sgBM+Y+kDUFTyg==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.2.6",
+      "files": [
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.2.6.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.2.6": {
+      "sha512": "AmdtrCaQtafgIzjaJjWjntWCE28c9CZnwSOFBC7zqt9OWJ9+uaxDQYSF1CHlyQOgTCzU7U9kux45cEoXXrwGDw==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.2.6",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.2.6.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.2.6": {
+      "sha512": "Cr2MOsKLhxR0aM5LlrTKYPxbDZk8IIdEyxm7qcs8v1hn7VFgk9igvCM4R/sYqy6MN+9v3ry77D7aCsp542t1Dw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.2.6",
+      "files": [
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.2.6.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
+    "NServiceBus/6.4.4": {
+      "sha512": "Qtewz+Pf/ycAr8qK7a9ZvvV6ln8/G7/t4XX8aeRWfiPjHUoitjmAN7M+f3wbPRUyFEuyi50Lsnh1poCrmw12/Q==",
+      "type": "package",
+      "path": "nservicebus/6.4.4",
+      "files": [
+        "lib/net452/NServiceBus.Core.dll",
+        "lib/net452/NServiceBus.Core.pdb",
+        "lib/net452/NServiceBus.Core.xml",
+        "nservicebus.6.4.4.nupkg.sha512",
+        "nservicebus.nuspec",
+        "tools/init.ps1"
+      ]
+    },
+    "NServiceBus.Autofac/6.0.1": {
+      "sha512": "SiiNrAvSscMtlRyymxPW9fnn1G9xugPgolCSIvO0YHyIFnfzY8+DoDQbVzJWS0O6WEnlivaCTC5XPH5R9ld9qw==",
+      "type": "package",
+      "path": "nservicebus.autofac/6.0.1",
+      "files": [
+        "lib/net452/NServiceBus.ObjectBuilder.Autofac.dll",
+        "lib/net452/NServiceBus.ObjectBuilder.Autofac.pdb",
+        "lib/net452/NServiceBus.ObjectBuilder.Autofac.xml",
+        "nservicebus.autofac.6.0.1.nupkg.sha512",
+        "nservicebus.autofac.nuspec"
+      ]
+    },
+    "NServiceBus.Callbacks/2.0.2": {
+      "sha512": "DH+NAU/SSbTj4RrD+rgCKre7m3NPEQPhqVHnydzfHyG9LjsIfha9w2HttO1RBZkm6GYn+rdvSU71bqyg+fqO6g==",
+      "type": "package",
+      "path": "nservicebus.callbacks/2.0.2",
+      "files": [
+        "lib/net452/NServiceBus.Callbacks.dll",
+        "lib/net452/NServiceBus.Callbacks.pdb",
+        "lib/net452/NServiceBus.Callbacks.xml",
+        "nservicebus.callbacks.2.0.2.nupkg.sha512",
+        "nservicebus.callbacks.nuspec"
+      ]
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Autofac >= 4.*",
+      "Autofac.Mvc5 >= 4.*",
+      "Microsoft.AspNet.Mvc >= 5.*",
+      "NServiceBus.Autofac >= 6.*",
+      "Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\anton\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\AsyncPagesMVC\\AsyncPagesMVC.csproj",
+      "projectName": "AsyncPagesMVC",
+      "projectPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\AsyncPagesMVC\\AsyncPagesMVC.csproj",
+      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\AsyncPagesMVC\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\NuGet.Config",
+        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/particular/": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Shared\\Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.*, )"
+          },
+          "Autofac.Mvc5": {
+            "target": "Package",
+            "version": "[4.*, )"
+          },
+          "Microsoft.AspNet.Mvc": {
+            "target": "Package",
+            "version": "[5.*, )"
+          },
+          "NServiceBus.Autofac": {
+            "target": "Package",
+            "version": "[6.*, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

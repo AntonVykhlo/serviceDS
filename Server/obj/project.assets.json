@@ -1,0 +1,188 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "NServiceBus/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Callbacks/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "6.0.0",
+          "NServiceBus.Callbacks": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x86": {
+      "NServiceBus/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Callbacks/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[6.0.0, 7.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Callbacks.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "6.0.0",
+          "NServiceBus.Callbacks": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NServiceBus/6.4.4": {
+      "sha512": "Qtewz+Pf/ycAr8qK7a9ZvvV6ln8/G7/t4XX8aeRWfiPjHUoitjmAN7M+f3wbPRUyFEuyi50Lsnh1poCrmw12/Q==",
+      "type": "package",
+      "path": "nservicebus/6.4.4",
+      "files": [
+        "lib/net452/NServiceBus.Core.dll",
+        "lib/net452/NServiceBus.Core.pdb",
+        "lib/net452/NServiceBus.Core.xml",
+        "nservicebus.6.4.4.nupkg.sha512",
+        "nservicebus.nuspec",
+        "tools/init.ps1"
+      ]
+    },
+    "NServiceBus.Callbacks/2.0.2": {
+      "sha512": "DH+NAU/SSbTj4RrD+rgCKre7m3NPEQPhqVHnydzfHyG9LjsIfha9w2HttO1RBZkm6GYn+rdvSU71bqyg+fqO6g==",
+      "type": "package",
+      "path": "nservicebus.callbacks/2.0.2",
+      "files": [
+        "lib/net452/NServiceBus.Callbacks.dll",
+        "lib/net452/NServiceBus.Callbacks.pdb",
+        "lib/net452/NServiceBus.Callbacks.xml",
+        "nservicebus.callbacks.2.0.2.nupkg.sha512",
+        "nservicebus.callbacks.nuspec"
+      ]
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\anton\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Server\\Server.csproj",
+      "projectName": "Server",
+      "projectPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\NuGet.Config",
+        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/particular/": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\anton\\Desktop\\asp-mvc-application_core_6\\Shared\\Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {}
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
