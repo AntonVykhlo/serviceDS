@@ -1,0 +1,18 @@
+﻿2018-05-27 14:04:48.120 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-27 14:04:53.419 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-27 14:04:56.022 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-27 14:04:57.747 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 14:04:57.853 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 14:04:57.996 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 15:37:41.691 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-27 15:37:44.195 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-27 15:37:44.857 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-27 15:37:45.511 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 15:37:45.546 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 15:37:45.583 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 15:38:06.485 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-27 15:38:16.529 INFO  CommandMessageHandler Returning None
+2018-05-27 15:38:17.311 INFO  CommandMessageHandler Hello from CommandMessageHandler
+2018-05-27 15:38:27.341 INFO  CommandMessageHandler Returning Fail
