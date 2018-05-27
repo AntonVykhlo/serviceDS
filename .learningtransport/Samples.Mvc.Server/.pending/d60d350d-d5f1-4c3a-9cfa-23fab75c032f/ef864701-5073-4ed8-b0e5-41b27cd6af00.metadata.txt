@@ -1,0 +1,14 @@
+{
+  "NServiceBus.MessageId": "e12869de-f7d0-4166-837c-a8ed00fa16e3",
+  "NServiceBus.MessageIntent": "Send",
+  "NServiceBus.ReplyToAddress": "Samples.Mvc.WebApplication-1",
+  "NServiceBus.CorrelationId": "e12869de-f7d0-4166-837c-a8ed00fa16e3",
+  "NServiceBus.OriginatingMachine": "DESKTOP-78RVP3N",
+  "NServiceBus.OriginatingEndpoint": "Samples.Mvc.WebApplication",
+  "$.diagnostics.originating.hostid": "1778c4e11c30fcd8ffb9dbd9cdf33959",
+  "NServiceBus.ContentType": "text\/xml",
+  "NServiceBus.EnclosedMessageTypes": "Command, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.ConversationId": "74fc03cd-a16b-4795-829a-a8ed00fa16e3",
+  "NServiceBus.Version": "6.4.4",
+  "NServiceBus.TimeSent": "2018-05-27 15:10:32:858771 Z"
+}

@@ -41,27 +41,27 @@ public class SendAsyncController :
 
         var status = await endpoint.Request<ErrorCodes>(command, sendOptions)
             .ConfigureAwait(false);
-        using (StreamWriter sw = new StreamWriter(@"C:\upw\sdasdfasd.txt",true))
-        {
-            sw.WriteLine("first request sent: " + DateTime.Now);
-        }
-        #region second command
-        var command2 = new Command
-        {
-            Id = number+3
-        };
+        //using (StreamWriter sw = new StreamWriter(@"C:\upw\sdasdfasd.txt",true))
+        //{
+        //    sw.WriteLine("first request sent: " + DateTime.Now);
+        //}
+        //#region second command
+        //var command2 = new Command
+        //{
+        //    Id = number+3
+        //};
 
-        var sendOptions2 = new SendOptions();
-        sendOptions2.SetDestination("Samples.Mvc.Server");
+        //var sendOptions2 = new SendOptions();
+        //sendOptions2.SetDestination("Samples.Mvc.Server");
         
 
-        var status2 = await endpoint.Request<ErrorCodes>(command2, sendOptions2)
-            .ConfigureAwait(false);
-        #endregion
-        using (StreamWriter sw = new StreamWriter(@"C:\upw\sdasdfasd.txt", true))
-        {
-            sw.WriteLine("first request sent: " + DateTime.Now);
-        }
+        //var status2 = await endpoint.Request<ErrorCodes>(command2, sendOptions2)
+        //    .ConfigureAwait(false);
+        //#endregion
+        //using (StreamWriter sw = new StreamWriter(@"C:\upw\sdasdfasd.txt", true))
+        //{
+        //    sw.WriteLine("first request sent: " + DateTime.Now);
+        //}
 
         return IndexCompleted(Enum.GetName(typeof(ErrorCodes), status));
 

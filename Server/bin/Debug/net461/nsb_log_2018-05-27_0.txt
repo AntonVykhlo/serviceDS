@@ -16,3 +16,51 @@
 2018-05-27 15:38:16.529 INFO  CommandMessageHandler Returning None
 2018-05-27 15:38:17.311 INFO  CommandMessageHandler Hello from CommandMessageHandler
 2018-05-27 15:38:27.341 INFO  CommandMessageHandler Returning Fail
+2018-05-27 15:52:37.524 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-27 15:52:40.178 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-27 15:52:40.939 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "DESKTOP-78RVP3N\anton" /add
+2018-05-27 15:52:41.466 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 15:52:41.578 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 15:52:41.616 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:02:11.649 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-27 18:02:22.082 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-27 18:02:23.266 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-27 18:02:24.630 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:02:24.688 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:02:24.711 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:03:11.908 INFO  CommandMessageHandler Request received
+2018-05-27 18:03:15.565 INFO  CommandMessageHandler Request received
+2018-05-27 18:06:35.605 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-27 18:06:37.283 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-27 18:06:38.621 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-27 18:06:38.924 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:06:38.948 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:06:38.984 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:07:26.084 INFO  CommandMessageHandler Request received
+2018-05-27 18:08:40.888 INFO  DefaultFactory Logging to 'C:\Users\anton\Desktop\RelationalPart\Server\bin\Debug\net461\' with level Info
+2018-05-27 18:08:42.518 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '5/26/2018'
+
+2018-05-27 18:08:43.404 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-78RVP3N\anton' to group 'Performance Monitor Users' because the user is already in group.
+2018-05-27 18:08:44.255 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:08:44.637 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:08:45.081 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-05-27 18:09:21.190 INFO  CommandMessageHandler Request received
+2018-05-27 18:09:25.078 INFO  CommandMessageHandler Request received
+2018-05-27 18:10:20.115 INFO  CommandMessageHandler Request received
+2018-05-27 18:10:33.547 FATAL NServiceBus Failure while trying to process C:\Users\anton\Desktop\RelationalPart\.learningtransport\Samples.Mvc.Server\ef864701-5073-4ed8-b0e5-41b27cd6af00.metadata.txt
+System.IO.IOException: The process cannot access the file 'C:\Users\anton\Desktop\RelationalPart\.learningtransport\Samples.Mvc.Server\.pending\d60d350d-d5f1-4c3a-9cfa-23fab75c032f\ef864701-5073-4ed8-b0e5-41b27cd6af00.metadata.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at NServiceBus.AsyncFile.<ReadText>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LearningTransportMessagePump.<ProcessFile>d__9.MoveNext()
+2018-05-27 18:10:33.653 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2018-05-27 18:10:33.850 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.

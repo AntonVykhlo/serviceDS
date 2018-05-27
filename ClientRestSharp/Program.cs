@@ -17,7 +17,7 @@ namespace ClientRestSharp
             byte[] data = encoding.GetBytes(postData);
 
             HttpWebRequest myRequest =
-              (HttpWebRequest)WebRequest.Create("http://localhost:49214/SendAsync/Index/");
+              (HttpWebRequest)WebRequest.Create("http://192.168.1.131:49214/SendAsync/Index/");
             myRequest.Method = "POST";
             myRequest.ContentType = "application/x-www-form-urlencoded";
             myRequest.ContentLength = data.Length;
@@ -29,12 +29,9 @@ namespace ClientRestSharp
         {
             Console.WriteLine("ready");
             Console.ReadLine();
-            while (Console.ReadLine() != "q")
-            {
-                testPostAsync(132);
+                testPostAsync(8);
                 Console.WriteLine("Done");
                 Console.ReadLine();
-            }
         }
     }
 }

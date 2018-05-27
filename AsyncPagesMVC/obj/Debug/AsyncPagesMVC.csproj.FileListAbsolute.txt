@@ -48,3 +48,7 @@ C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\obj\Debug\AsyncPagesMVC.cspr
 C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\obj\Debug\AsyncPagesMVC.csproj.CopyComplete
 C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\obj\Debug\AsyncPagesMVC.dll
 C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\obj\Debug\AsyncPagesMVC.pdb
+C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\bin\System.Web.Http.dll
+C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\anton\Desktop\RelationalPart\AsyncPagesMVC\bin\Newtonsoft.Json.dll
